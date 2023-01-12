@@ -23,6 +23,11 @@
     "color wheel",
     "color palette"
   ],
+  "publisher": "djlynn03",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djlynn03/insert-color"
+  },
   "activationEvents": [
     "onCommand:insertColor"
   ],
