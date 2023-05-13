@@ -2,7 +2,7 @@
   "name": "luau-color-wheel",
   "displayName": "Luau Color Wheel",
   "description": "Choose and insert a color into your Rojo project",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.74.0"

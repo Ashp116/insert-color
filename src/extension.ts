@@ -18,8 +18,8 @@ export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand('insert-color.insertColor', () => {
 
     const panel = vscode.window.createWebviewPanel(
-      'pickColor',
-      'Pick Color',
+      'colorwheel',
+      'Color Wheel',
       vscode.ViewColumn.Beside,
       {
         enableScripts: true,
@@ -50,6 +50,7 @@ export function activate(context: vscode.ExtensionContext) {
     ]; */
 
     panel.webview.html = getWebviewContent([]);
+    panel.iconPath = vscode.Uri.file(path.join(context.extensionPath, 'icon.png'))
 
     panel.webview.onDidReceiveMessage(
       message => {
