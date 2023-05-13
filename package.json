@@ -2,7 +2,7 @@
   "name": "luau-color-wheel",
   "displayName": "Luau Color Wheel",
   "description": "Choose and insert a color into your Rojo project",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.74.0"
@@ -40,7 +40,7 @@
         "title": "Insert Color"
       }
     ],
-    "menus":{
+    "menus": {
       "editor/context": [
         {
           "command": "insert-color.insertColor",
