@@ -8,7 +8,7 @@ import * as path from 'path';
 export function activate(context: vscode.ExtensionContext) {
   var currentEditor: any = undefined;
   var currentSelection: any = undefined;
-
+  
   vscode.window.onDidChangeTextEditorSelection((e) => {
     currentEditor = e.textEditor;
     currentSelection = currentEditor.selection.active;
@@ -78,7 +78,6 @@ export function activate(context: vscode.ExtensionContext) {
       },
     );
   });
-
 
   context.subscriptions.push(disposable);
 }

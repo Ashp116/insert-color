@@ -19,7 +19,8 @@
         format: "auto",
         formatToggle: true,
         theme: '',
-        themeMode: 'auto'
+        themeMode: 'auto',
+        alpha: false
       });
 
       try {
@@ -31,6 +32,7 @@
 
       function exportColor(){
         exportValue(color);
+        console.log(color)
       }
       function copyColor(){
         copyValue(color);
