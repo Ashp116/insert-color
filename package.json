@@ -1,7 +1,7 @@
 {
-  "name": "insert-color",
-  "displayName": "Insert Color",
-  "description": "Choose and insert a color into a VSCode editor",
+  "name": "luau-color-wheel",
+  "displayName": "Luau Color Wheel",
+  "description": "Choose and insert a color into a Rojo project",
   "version": "0.0.1",
   "icon": "icon.png",
   "engines": {
@@ -15,18 +15,19 @@
     "color picker",
     "rgb",
     "hex",
-    "css",
     "style",
     "insert",
     "insert color",
     "insert color picker",
     "color wheel",
-    "color palette"
+    "color palette",
+    "luau color wheel",
+    "luau color3"
   ],
-  "publisher": "djlynn03",
+  "publisher": "Ashp116",
   "repository": {
     "type": "git",
-    "url": "https://github.com/djlynn03/insert-color"
+    "url": "https://github.com/Ashp116/insert-color"
   },
   "activationEvents": [
     "onCommand:insertColor"
