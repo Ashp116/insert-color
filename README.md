@@ -13,6 +13,7 @@ The window can also be opened from the context menu in the editor.
 <br>
 
 > Color picker widget based on <a href="https://github.com/mdbassit/Coloris">Coloris</a>
+
 > Extension Main Frame: <a href="https://github.com/djlynn03/insert-color">insert-color</a>
 
 ## Release Notes
